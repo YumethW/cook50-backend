@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
         "AllowFrontEnd",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader();
+            policy.WithOrigins("https://cook50-lac.vercel.app/").AllowAnyMethod().AllowAnyHeader();
         }
     );
 });
