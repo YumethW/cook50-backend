@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cook50-backend", "cook50-backend.csproj", "{630F1708-6869-4D28-BC82-240AD8FE0CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58F3ECBB-3F74-40E3-935A-1F2646DB827F}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630F1708-6869-4D28-BC82-240AD8FE0CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630F1708-6869-4D28-BC82-240AD8FE0CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630F1708-6869-4D28-BC82-240AD8FE0CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630F1708-6869-4D28-BC82-240AD8FE0CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
