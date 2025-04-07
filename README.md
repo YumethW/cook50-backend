@@ -1,23 +1,24 @@
 # Cook50
 
-Cook50 is an AI-powered recipe generator that helps you create delicious meals based on the ingredients you have on hand. By leveraging the Gemini AI API, this application suggests creative recipes tailored to your available ingredients, making meal planning easier and reducing food waste.
+Cook50 is an AI-powered recipe generator that helps you create meals based on the ingredients you have on hand. By using the Gemini AI API, the application suggests recipes tailored to your available ingredients.
 
 ## Tech Stack
 
-### Frontend (Next.js)
-
 - **Frontend**: Next.js with TypeScript
 - **Styling**: Tailwind CSS
-- **Backend**: ASP.NET
+- **Backend**: ASP.NET with C#
 - **AI Technologies**:
   - Gemini API (Recipe Generator)
 
-## Features
+## Key Features
 
-- **Ingredient-Based Recipe Generation**: Enter the ingredients you have, and get AI-generated recipe suggestions
-- **Detailed Recipe Information**: Each recipe includes a comprehensive list of ingredients and step-by-step instructions
-- **PDF Download**: Save your favorite recipes as PDF files for offline use
-- **Responsive Design**: Works seamlessly across desktop and mobile devices
+- **Ingredient Based Recipe Generation**: Generating Recipes based on the inputted ingredients
+- **PDF Download**: Downloads recipes in a PDF formate
+
+## How It Works
+
+1. Enter the ingredients available
+2. Save recipes as PDF files for offline use
 
 ## Getting Started
 
@@ -42,17 +43,19 @@ Cook50 is an AI-powered recipe generator that helps you create delicious meals b
    cd cook50-backend/cook50-backend
    dotnet restore
    ```
+### Environment Setup
 
-3. Configure environment variables
-
-- Create dotnet user secrets, in it paste
-  `{
+Create dotnet user secrets, in it paste
+```
+  {
       "Gemini": {
           "ApiKey": "api-key"
       }
   }
 
-### Running the Application
+```
+
+### Run the Application
 
 1. Start the backend server
 
@@ -67,8 +70,6 @@ Cook50 is an AI-powered recipe generator that helps you create delicious meals b
    cd cook50-frontend
    npm run dev
    ```
-
-3. Open your browser and navigate to `http://localhost:3000`
 
 ## Project Structure
 
@@ -103,7 +104,7 @@ The Next.js application has been deployed to Vercel with: `https://cook50-lac.ve
 
 ### Backend Deployment
 
-The .NET backend has been deployed to Azure with: `https://cook50-f8ffgqbgaadqcfc3.eastasia-01.azurewebsites.net/`
+The .NET backend has been deployed to Azure with: `cook50-f8ffgqbgaadqcfc3.canadacentral-01.azurewebsites.net`
 
 ## Acknowledgments
 
