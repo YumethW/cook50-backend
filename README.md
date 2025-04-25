@@ -109,5 +109,3 @@ The .NET backend has been deployed to Azure with: `cook50-f8ffgqbgaadqcfc3.canad
 ## Acknowledgments
 
 - CS50
-- Google Gemini API for powering the recipe generation
-- Next.js and .NET communities for excellent documentation and resources
