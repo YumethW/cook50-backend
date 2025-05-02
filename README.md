@@ -4,7 +4,7 @@ Cook50 is an AI-powered recipe generator that helps you create meals based on th
 
 ## Tech Stack
 
-- **Frontend**: Next.js with TypeScript
+- **Frontend**: Next.js with JavaScript
 - **Styling**: Tailwind CSS
 - **Backend**: ASP.NET with C#
 - **AI Technologies**:
